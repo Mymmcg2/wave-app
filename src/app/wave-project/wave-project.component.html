@@ -1,0 +1,17 @@
+<!-- <p>{{ count }}</p>
+<div *ngFor="let arr of array; index as i">
+  <p *ngIf="i + 1 !== 2">inform {{ i + 1 }} : {{ arr }}</p>
+</div> -->
+<div>
+  <!-- <button class="mr-10" (click)="add()">add</button> -->
+  <button (click)="onClickCar()">car</button>
+</div>
+<div class="container" *ngFor="let arr of showCar">
+  <p>{{ arr.type }}</p>
+  <p>{{ arr.model }}</p>
+  <p>{{ arr.year }}</p>
+</div>
+
+<!-- <p>{{ array }}</p>
+
+<p>{{ hello }}</p> -->
